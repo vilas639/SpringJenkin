@@ -1,4 +1,0 @@
-FROM openjdk:17-jdk-alpine
-MAINTAINER  vilasjdhv639
-COPY target/SpringJenkin-0.0.1-SNAPSHOT.jar SpringJenkin-1.0.0.jar
-ENTRYPOINT ["java","-jar","/SpringJenkin-1.0.0.jar"]
