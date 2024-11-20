@@ -1,5 +1,5 @@
-# Use OpenJDK 11 as the base image
-FROM openjdk:11-jdk-slim
+# Use OpenJDK 17 as the base image
+FROM openjdk:17-jdk-slim
 
 # Set the maintainer label
 LABEL maintainer="vilasjdhv639"
